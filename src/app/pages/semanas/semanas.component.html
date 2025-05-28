@@ -1,0 +1,45 @@
+<main>
+  <div class="max-w-7xl  mx-auto"  >
+    <div class="text-[#9fc9de] text-center py-8">
+      <h1 class="text-2xl mb-4" style="font-family: 'Comic Sans MS', cursive, sans-serif;">&gt;/&lt; SEMANAS</h1>
+        <div class="flex flex-wrap justify-center gap-6">
+          @for (semana of semanas; track semana.titulo) {
+            <a [routerLink] = "semana.ruta">
+              <div class="bg-[#f0dec3] text-[#274d60] p-4 rounded-lg w-[250px] text-center shadow-md">
+                <img [src]="semana.imagen"
+                    [alt]="semana.titulo"
+                    class="w-[100px] h-[100px] object-cover rounded-full mx-auto mb-2">
+                <h2 class="text-xl font-semibold">{{ semana.titulo }}</h2>
+                <p>{{ semana.descripcion }}</p>
+              </div>
+            </a>
+          }
+        </div>
+      
+    </div>
+    <div class="flex flex-wrap gap-6 justify-center">
+      @for (column of columns; track column.id) {
+        <div class="bg-gray-100 p-4 rounded-lg w-80 shadow">
+          <h3 class="text-lg font-bold mb-4 text-center">{{ column.title }}</h3>
+          <div
+            class="min-h-[200px] p-2 space-y-3 bg-white rounded shadow-inner"
+            (drop)="onDrop(column.id)"
+            (dragover)="onDragOver($event)"
+          >
+            @for (task of column.tasks; track task.id) {
+              <div
+                class="bg-blue-100 p-3 rounded shadow cursor-move hover:bg-blue-200 transition"
+                draggable="true"
+                (dragstart)="onDragStart(task)"
+              >
+                <p class="font-semibold">{{ task.title }}</p>
+              </div>
+            }
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+  <router-outlet></router-outlet>
+</main>
+

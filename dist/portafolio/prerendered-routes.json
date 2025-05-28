@@ -1,0 +1,17 @@
+{
+  "routes": {
+    "/MayraPortafolio": {},
+    "/MayraPortafolio/bibliografia": {},
+    "/MayraPortafolio/home": {},
+    "/MayraPortafolio/reflexion": {},
+    "/MayraPortafolio/semanas": {},
+    "/MayraPortafolio/semanas/1": {},
+    "/MayraPortafolio/semanas/2": {},
+    "/MayraPortafolio/semanas/3": {},
+    "/MayraPortafolio/semanas/4": {},
+    "/MayraPortafolio/semanas/5": {},
+    "/MayraPortafolio/semanas/6": {},
+    "/MayraPortafolio/semanas/7": {},
+    "/MayraPortafolio/semanas/8": {}
+  }
+}
