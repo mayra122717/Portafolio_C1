@@ -8,6 +8,7 @@ import { Semana5Component } from './pages/semanas/semana5/semana5.component';
 import { Semana6Component } from './pages/semanas/semana6/semana6.component';
 import { Semana7Component } from './pages/semanas/semana7/semana7.component';
 import { Semana8Component } from './pages/semanas/semana8/semana8.component';
+import { Semana9Component } from './pages/semanas/semana9/semana9.component';
 
 export const routes: Routes = [
     {
@@ -62,10 +63,10 @@ export const routes: Routes = [
                 path: 'semanas/8',
                 loadComponent: () => import('./pages/semanas/semana2/semana2.component').then(m => Semana8Component)
             },
-            // {
-            //     path: 'semanas/9',
-            //     loadComponent: () => import('./pages/semanas/semana2/semana2.component').then(m => Semana9Component)
-            // },
+            {
+                path: 'semanas/9',
+                loadComponent: () => import('./pages/semanas/semana2/semana2.component').then(m => Semana9Component)
+            },
             // {
             //     path: 'semanas/10',
             //     loadComponent: () => import('./pages/semanas/semana2/semana2.component').then(m => Semana10Component)

@@ -67,13 +67,13 @@ export class SemanasComponent {
       imagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQdeWD_7svCRuBKBsGZixNxk9t-Gob8ceayw&s',
       ruta: '/semanas/8'
     },
-    // {
-    //   titulo: 'Semana 9',
-    //   descripcion: '',
-    //   imagen: 'https://i.blogs.es/9af51d/emmet/1024_2000.webp',
-    //         ruta: '/semanas/9'
+    {
+      titulo: 'Semana 9',
+      descripcion: '',
+      imagen: 'https://i.blogs.es/9af51d/emmet/1024_2000.webp',
+            ruta: '/semanas/9'
 
-    // },
+    },
     // {
     //   titulo: 'Semana 10',
     //   descripcion: '',
