@@ -1,17 +1,18 @@
 {
   "routes": {
-    "/MayraPortafolio": {},
-    "/MayraPortafolio/bibliografia": {},
-    "/MayraPortafolio/home": {},
-    "/MayraPortafolio/reflexion": {},
-    "/MayraPortafolio/semanas": {},
-    "/MayraPortafolio/semanas/1": {},
-    "/MayraPortafolio/semanas/2": {},
-    "/MayraPortafolio/semanas/3": {},
-    "/MayraPortafolio/semanas/4": {},
-    "/MayraPortafolio/semanas/5": {},
-    "/MayraPortafolio/semanas/6": {},
-    "/MayraPortafolio/semanas/7": {},
-    "/MayraPortafolio/semanas/8": {}
+    "/Portafolio_C1": {},
+    "/Portafolio_C1/bibliografia": {},
+    "/Portafolio_C1/home": {},
+    "/Portafolio_C1/reflexion": {},
+    "/Portafolio_C1/semanas": {},
+    "/Portafolio_C1/semanas/1": {},
+    "/Portafolio_C1/semanas/2": {},
+    "/Portafolio_C1/semanas/3": {},
+    "/Portafolio_C1/semanas/4": {},
+    "/Portafolio_C1/semanas/5": {},
+    "/Portafolio_C1/semanas/6": {},
+    "/Portafolio_C1/semanas/7": {},
+    "/Portafolio_C1/semanas/8": {},
+    "/Portafolio_C1/semanas/9": {}
   }
 }

@@ -1,16 +1,16 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-semana9',
+  selector: 'app-semana11',
   imports: [],
-  templateUrl: './semana9.component.html',
+  templateUrl: './semana11.component.html',
 })
-export class Semana9Component {
+export class Semana11Component {
   title = '';
   subtitle = '';
 
-  private fullTitle = 'SEMANA 9';
-  private fullSubtitle = 'Lenguajes de Backend';
+  private fullTitle = 'SEMANA 11';
+  private fullSubtitle = 'Articulos Software Impacts';
 
   ngOnInit(): void {
     this.typeWriter(this.fullTitle, 'title', 100).then(() => {

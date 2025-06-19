@@ -1,6 +1,6 @@
 
 export default {
-  basePath: 'https://JoseChahuayo.github.io/MayraPortafolio',
+  basePath: 'https://mayra122717.github.io/Portafolio_C1',
   supportedLocales: {
   "en-US": ""
 },

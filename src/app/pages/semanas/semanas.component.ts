@@ -69,25 +69,25 @@ export class SemanasComponent {
     },
     {
       titulo: 'Semana 9',
-      descripcion: '',
-      imagen: 'https://i.blogs.es/9af51d/emmet/1024_2000.webp',
+      descripcion: 'Lenguajes Backend',
+      imagen: 'https://cursosdedesarrollo.com/wp-content/uploads/2020/06/backend-frameworks.png',
             ruta: '/semanas/9'
 
     },
-    // {
-    //   titulo: 'Semana 10',
-    //   descripcion: '',
-    //   imagen: 'https://i.blogs.es/9af51d/emmet/1024_2000.webp',
-    //   ruta: '/semanas/10'
+    {
+      titulo: 'Semana 10',
+      descripcion: 'Login',
+      imagen: 'https://i.ytimg.com/vi/3EHY_fe3U9M/maxresdefault.jpg',
+      ruta: '/semanas/10'
 
-    // },
-    // {
-    //   titulo: 'Semana 11',
-    //   descripcion: '',
-    //   imagen: 'https://i.blogs.es/9af51d/emmet/1024_2000.webp',
-    //   ruta: '/semanas/11'
+    },
+    {
+      titulo: 'Semana 11',
+      descripcion: 'Articulos Software Impacts',
+      imagen: 'https://ars.els-cdn.com/content/image/X26659638.jpg',
+      ruta: '/semanas/11'
 
-    // },
+    },
     // {
     //   titulo: 'Semana 12',
     //   descripcion: '',
