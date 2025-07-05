@@ -10,7 +10,7 @@ export class Semana13Component {
   subtitle = '';
 
   private fullTitle = 'SEMANA 13';
-  private fullSubtitle = 'Articulos Software Impacts';
+  private fullSubtitle = 'PHP + Laravel';
 
   ngOnInit(): void {
     this.typeWriter(this.fullTitle, 'title', 100).then(() => {
