@@ -88,18 +88,18 @@ export class SemanasComponent {
       ruta: '/semanas/11'
 
     },
-    // {
-    //   titulo: 'Semana 12',
-    //   descripcion: '',
-    //   imagen: 'https://i.blogs.es/9af51d/emmet/1024_2000.webp',
-    //   ruta: '/semanas/12'
-    // },
-    // {
-    //   titulo: 'Semana 13',
-    //   descripcion: '',
-    //   imagen: 'https://i.blogs.es/9af51d/emmet/1024_2000.webp',
-    //   ruta: '/semanas/13'
-    // },
+    {
+      titulo: 'Semana 12',
+      descripcion: 'JPA Jakarta y Spring',
+      imagen: 'https://blog.postman.com/wp-content/uploads/2021/03/APIs-in-Postman-e1616786230943.png',
+      ruta: '/semanas/12'
+    },
+    {
+      titulo: 'Semana 13',
+      descripcion: 'PHP + Laravel',
+      imagen: 'https://clickaplicaciones.com/images/laravel.webp',
+      ruta: '/semanas/13'
+    },
     // {
     //   titulo: 'Semana 14',
     //   descripcion: '',

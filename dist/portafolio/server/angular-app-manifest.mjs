@@ -19,7 +19,7 @@ export default {
   {
     "renderMode": 2,
     "preload": [
-      "chunk-6E23RVML.js"
+      "chunk-43ARVAIS.js"
     ],
     "route": "/Portafolio_C1/semanas"
   },
@@ -89,6 +89,20 @@ export default {
   {
     "renderMode": 2,
     "preload": [
+      "chunk-XBOET6X2.js"
+    ],
+    "route": "/Portafolio_C1/semanas/10"
+  },
+  {
+    "renderMode": 2,
+    "preload": [
+      "chunk-XBOET6X2.js"
+    ],
+    "route": "/Portafolio_C1/semanas/11"
+  },
+  {
+    "renderMode": 2,
+    "preload": [
       "chunk-6IHJHNXJ.js"
     ],
     "route": "/Portafolio_C1/reflexion"
@@ -108,22 +122,24 @@ export default {
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 7080, hash: '7f0f277f826048369478ee25c57d939edb92543a6d819714548f6c0daf4b7c9b', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1254, hash: '28556ead09485bd43d55b9a37ac585783f1a7316d13eff3eb1a8f18aef432555', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'home/index.html': {size: 27583, hash: '00b461f03459c4a17eddad826a1e364fe2b0a3b717bdc76760012a47851e36e1', text: () => import('./assets-chunks/home_index_html.mjs').then(m => m.default)},
-    'index.html': {size: 27530, hash: 'e3d49b6017f0187f6e8b46ef39afb80d0ff800cec4180c74a7ce95c430849adb', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
-    'semanas/index.html': {size: 21301, hash: '7d2b37c9054b10203caceab7aebaf45c1fce3fd26601279345d480d4d311ce4a', text: () => import('./assets-chunks/semanas_index_html.mjs').then(m => m.default)},
-    'semanas/3/index.html': {size: 16788, hash: '843f336334c55c46467294789f6c524dd83d8561eeb226596e345c72f6611723', text: () => import('./assets-chunks/semanas_3_index_html.mjs').then(m => m.default)},
-    'semanas/2/index.html': {size: 16735, hash: '1bf8d180f6cca8d91bab358fd3db5c6f5b182649aef094cd743686dcf036ca41', text: () => import('./assets-chunks/semanas_2_index_html.mjs').then(m => m.default)},
-    'semanas/4/index.html': {size: 18158, hash: '0fa7ae4ec9c36be45d098d500f142a708836119b70244e9e484f35843ccee5ec', text: () => import('./assets-chunks/semanas_4_index_html.mjs').then(m => m.default)},
-    'semanas/1/index.html': {size: 17057, hash: '1baa40bf1feec1fbdb516f6b90a586ca43cea6d7b331efb887949dc502a872c9', text: () => import('./assets-chunks/semanas_1_index_html.mjs').then(m => m.default)},
-    'semanas/7/index.html': {size: 18663, hash: 'aca54be14cac0656fb51fb3a96f7b62aab7ca9d8e4acffa07358021ce3b62093', text: () => import('./assets-chunks/semanas_7_index_html.mjs').then(m => m.default)},
-    'semanas/9/index.html': {size: 10574, hash: '10cf32e095d6c674a5bdda5696ea721268ff7cae502087a8caa95017f0298c40', text: () => import('./assets-chunks/semanas_9_index_html.mjs').then(m => m.default)},
-    'semanas/5/index.html': {size: 18145, hash: 'caa595d7d37730795bb64dafb56c5da997adba33c7994027d5b2f7f4757fa1b1', text: () => import('./assets-chunks/semanas_5_index_html.mjs').then(m => m.default)},
-    'semanas/8/index.html': {size: 17148, hash: '18838ea1bb0f5de2c05863beece3c322eeca9b209eea5ecb7a759881bec189f2', text: () => import('./assets-chunks/semanas_8_index_html.mjs').then(m => m.default)},
-    'semanas/6/index.html': {size: 17459, hash: 'f55cc7bbdc6eccf090bc442436f44232f663a95c7e06863e8018f29f0cf07c40', text: () => import('./assets-chunks/semanas_6_index_html.mjs').then(m => m.default)},
-    'reflexion/index.html': {size: 17801, hash: '7e4afaf006e806b37081086ab0e81aec271da6c8cf0fa236c51694f23c4d12bd', text: () => import('./assets-chunks/reflexion_index_html.mjs').then(m => m.default)},
-    'bibliografia/index.html': {size: 17768, hash: '948342b92f7e2fd09b6eb809b50d1d0c107344ed0dae129b0a0343e99ded668d', text: () => import('./assets-chunks/bibliografia_index_html.mjs').then(m => m.default)},
-    'styles-25BWYSNT.css': {size: 19964, hash: 'bkq0oHEfPOA', text: () => import('./assets-chunks/styles-25BWYSNT_css.mjs').then(m => m.default)}
+    'index.csr.html': {size: 7323, hash: 'bbbfe0f27b21c65490cbaa6204fc4c2c45ed4ad45a0e6b3f2c1ba3d8b4214fd1', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1254, hash: '3ebc1c8cde78ab7f8aafba42be06b9c6d85d11ec46b197d71dea4ba1e42302b8', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.html': {size: 27791, hash: 'adcaff45b18ba8ffbb7297d1b924d9eb05320213152980fb0831a2ff33408960', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
+    'home/index.html': {size: 27844, hash: '97b96a3af4b3b5b1dda15ee6004ae741b3fe19c6861b9a703dbd765e6c47d6d3', text: () => import('./assets-chunks/home_index_html.mjs').then(m => m.default)},
+    'semanas/index.html': {size: 22400, hash: '96a871f97f2596dcccf637c063e9b9d8966c74e82e89ca48a9773b044769dd38', text: () => import('./assets-chunks/semanas_index_html.mjs').then(m => m.default)},
+    'semanas/3/index.html': {size: 17049, hash: 'dd314529ee8a53530ba9bb979158bcff5333f40d0179762fef9e5958d87a746a', text: () => import('./assets-chunks/semanas_3_index_html.mjs').then(m => m.default)},
+    'semanas/2/index.html': {size: 16996, hash: '7378180c9969621b2278c9fa9d60febbdc9754ccde0f19e59e6067649f77548e', text: () => import('./assets-chunks/semanas_2_index_html.mjs').then(m => m.default)},
+    'semanas/4/index.html': {size: 18419, hash: '80f4cd289cc2937ab4f92641d4bcfe99e9aa97763341aa8dfbb3cb2e1131e5bb', text: () => import('./assets-chunks/semanas_4_index_html.mjs').then(m => m.default)},
+    'semanas/1/index.html': {size: 17318, hash: 'd8e7946dc662e0f41fe44bf9d00a3ea9beb09c3a3431a6a1d386ae7a7ed2b127', text: () => import('./assets-chunks/semanas_1_index_html.mjs').then(m => m.default)},
+    'semanas/7/index.html': {size: 18924, hash: '9d9d9536ecd3d5b887ef8898b21a5971bb1354381b41400c2482d567bdf22241', text: () => import('./assets-chunks/semanas_7_index_html.mjs').then(m => m.default)},
+    'semanas/5/index.html': {size: 18406, hash: 'db5690b521faba760b8810e83e57e28d8226ef2047479adc67a63f00708f2b51', text: () => import('./assets-chunks/semanas_5_index_html.mjs').then(m => m.default)},
+    'semanas/8/index.html': {size: 17409, hash: '9d8875e8a3c43355aa2226024ce45e6cb2cf3758a95d297cdd238398ea1a1606', text: () => import('./assets-chunks/semanas_8_index_html.mjs').then(m => m.default)},
+    'semanas/6/index.html': {size: 17720, hash: '81d6e662a69d5d332da339b7801f3e0c4a0c7889b600bdc6c534c15af3c4a7ef', text: () => import('./assets-chunks/semanas_6_index_html.mjs').then(m => m.default)},
+    'semanas/10/index.html': {size: 17827, hash: '2fa041f860907362f12d385f1e1eb49d262e7ede0b2d6bc084f9bfc9d40bb620', text: () => import('./assets-chunks/semanas_10_index_html.mjs').then(m => m.default)},
+    'semanas/9/index.html': {size: 17935, hash: '74930dc2f9c9211cbb7a2f0db1a85d7ca6b9a1c16ed2a2a3859fe44a560a1102', text: () => import('./assets-chunks/semanas_9_index_html.mjs').then(m => m.default)},
+    'reflexion/index.html': {size: 18062, hash: '454090bdb41ed1a31a20222b8229311afa6b072264a056ffcec418343d77240a', text: () => import('./assets-chunks/reflexion_index_html.mjs').then(m => m.default)},
+    'bibliografia/index.html': {size: 18029, hash: '6f3984d67775c8351c22c717c10991271a8ca7d293aa811a23177d7127c1756c', text: () => import('./assets-chunks/bibliografia_index_html.mjs').then(m => m.default)},
+    'semanas/11/index.html': {size: 17451, hash: '1d97b47294411a5670ee9b4b158c34774fb77a640b1bea0142c47e873e7ad803', text: () => import('./assets-chunks/semanas_11_index_html.mjs').then(m => m.default)},
+    'styles-LCQX64C5.css': {size: 20950, hash: '/1+73/t2dsk', text: () => import('./assets-chunks/styles-LCQX64C5_css.mjs').then(m => m.default)}
   },
 };
