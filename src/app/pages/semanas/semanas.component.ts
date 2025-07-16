@@ -100,13 +100,13 @@ export class SemanasComponent {
       imagen: 'https://clickaplicaciones.com/images/laravel.webp',
       ruta: '/semanas/13'
     },
-    // {
-    //   titulo: 'Semana 14',
-    //   descripcion: '',
-    //   imagen: 'https://i.blogs.es/9af51d/emmet/1024_2000.webp',
-    //   ruta: '/semanas/14'
+    {
+      titulo: 'Semana 14',
+      descripcion: 'Flask - Python',
+      imagen: 'https://miro.medium.com/v2/resize:fit:828/format:webp/1*XzIRJGujfqAiOV2EIQgR_Q.png',
+      ruta: '/semanas/14'
       
-    // },
+    },
   ];
   columns = [
   {

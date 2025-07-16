@@ -13,6 +13,7 @@ import { Semana10Component } from './pages/semanas/semana10/semana10.component';
 import { Semana11Component } from './pages/semanas/semana11/semana11.component';
 import { Semana12Component } from './pages/semanas/semana12/semana12.component';
 import { Semana13Component } from './pages/semanas/semana13/semana13.component';
+import { Semana14Component } from './pages/semanas/semana14/semana14.component';
 
 export const routes: Routes = [
     {
@@ -87,10 +88,10 @@ export const routes: Routes = [
                 path: 'semanas/13',
                 loadComponent: () => import('./pages/semanas/semana2/semana2.component').then(m => Semana13Component)
             },
-            // {
-            //     path: 'semanas/14',
-            //     loadComponent: () => import('./pages/semanas/semana2/semana2.component').then(m => Semana14Component)
-            // },
+            {
+                path: 'semanas/14',
+                loadComponent: () => import('./pages/semanas/semana2/semana2.component').then(m => Semana14Component)
+            },
             {
                 path: '**',
                 redirectTo: 'home',
