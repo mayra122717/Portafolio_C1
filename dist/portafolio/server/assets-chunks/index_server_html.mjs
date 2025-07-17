@@ -6,10 +6,10 @@ export default `<!doctype html>
   <base href="https://mayra122717.github.io/Portafolio_C1/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="stylesheet" href="styles-XOEEVR7E.css"></head>
+<link rel="stylesheet" href="styles-TQNBPW2T.css"></head>
 <body><script type="text/javascript" id="ng-event-dispatch-contract">(()=>{function p(t,n,r,o,e,i,f,m){return{eventType:t,event:n,targetElement:r,eic:o,timeStamp:e,eia:i,eirp:f,eiack:m}}function u(t){let n=[],r=e=>{n.push(e)};return{c:t,q:n,et:[],etc:[],d:r,h:e=>{r(p(e.type,e,e.target,t,Date.now()))}}}function s(t,n,r){for(let o=0;o<n.length;o++){let e=n[o];(r?t.etc:t.et).push(e),t.c.addEventListener(e,t.h,r)}}function c(t,n,r,o,e=window){let i=u(t);e._ejsas||(e._ejsas={}),e._ejsas[n]=i,s(i,r),s(i,o,!0)}window.__jsaction_bootstrap=c;})();
 </script>
   <app-root></app-root>
-<link rel="modulepreload" href="chunk-DTIUIYW2.js"><link rel="modulepreload" href="chunk-A5PCELWC.js"><link rel="modulepreload" href="chunk-TT3WO7YE.js"><link rel="modulepreload" href="chunk-QQGQSSVI.js"><script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-NEI6VFUO.js" type="module"></script></body>
+<link rel="modulepreload" href="chunk-LXBSYXYS.js"><link rel="modulepreload" href="chunk-DQWA3O5P.js"><link rel="modulepreload" href="chunk-LVCUZDBT.js"><link rel="modulepreload" href="chunk-F7HNTEEN.js"><link rel="modulepreload" href="chunk-TVNSLGQH.js"><script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-X6G7F2BU.js" type="module"></script></body>
 </html>
 `;

@@ -110,7 +110,7 @@ export class SemanasComponent {
         {
       titulo: 'Semana 15',
       descripcion: 'Sistemas Inteligentes',
-      imagen: 'https://miro.medium.com/v2/resize:fit:828/format:webp/1*XzIRJGujfqAiOV2EIQgR_Q.png',
+      imagen: 'https://www.dongee.com/tutoriales/content/images/2023/04/image-111.png',
       ruta: '/semanas/15'
       
     },
@@ -119,17 +119,17 @@ export class SemanasComponent {
   {
     id: 1,
     title: 'Pendiente',
-    tasks: [{ id: 9, title: 'Semana 9' }, { id: 10, title: 'Semana 10' }, { id: 11, title: 'Semana 11' }, { id: 12, title: 'Semana 12' }, { id: 13, title: 'Semana 13' }, { id: 14, title: 'Semana 14' }]
+    tasks: []
   },
   {
     id: 2,
     title: 'En Proceso',
-    tasks: [{ id: 8, title: 'Semana 8' }]
+    tasks: [{ id: 8, title: 'Semana 16' }]
   },
   {
     id: 3,
     title: 'Hecho',
-    tasks: [{ id: 1, title: 'Semana 1' }, { id: 2, title: 'Semana 2' }, { id: 3, title: 'Semana 3' }, { id: 4, title: 'Semana 4' }, { id: 5, title: 'Semana 5' }, { id: 6, title: 'Semana 6' }, { id: 7, title: 'Semana 7' }]
+    tasks: [{ id: 1, title: 'Semana 1' }, { id: 2, title: 'Semana 2' }, { id: 3, title: 'Semana 3' }, { id: 4, title: 'Semana 4' }, { id: 5, title: 'Semana 5' }, { id: 6, title: 'Semana 6' }, { id: 7, title: 'Semana 7' }, { id: 8, title: 'Semana 8' }, { id: 9, title: 'Semana 9' }, { id: 10, title: 'Semana 10' }, { id: 11, title: 'Semana 11' }, { id: 12, title: 'Semana 12' }, { id: 13, title: 'Semana 13' }, { id: 14, title: 'Semana 14' }, { id: 15, title: 'Semana 15' }]
   }
 ];
 
