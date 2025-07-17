@@ -1,14 +1,41 @@
 <main class="max-w-6xl mx-auto px-6 py-10 space-y-10">
     <div class="bg-gradient-to-r from-sky-950 via-[#f0dec3] to-sky-950 shadow-xl rounded-2xl text-center p-6 transition hover:scale-[1.02] duration-300 font-sans">
-      <h1 class="text-3xl font-bold text-[#274d60] mb-2">{{ title }}</h1>
+      <h1 class="text-3xl font-bold text-[#274d60] mb-2">Reflexiones</h1>
     </div>
-    <div class="bg-[#f0dec3]  shadow-xl rounded-2xl text-center p-6 transition hover:scale-[1.02] duration-300 font-sans">
-        <h2 class="text-2xl font-bold text-stone-700 mb-2">Semana 1</h2>
+
+
+<div *ngFor="let r of reflexiones; let i = index"
+     class="w-full h-64 cursor-pointer [perspective:1000px] mb-6"
+     (click)="flipCard(i)">
+
+  <div class="relative w-full h-full transition-transform duration-500 [transform-style:preserve-3d]"
+       [class.rotate-y-180]="flippedCards[i]">
+
+    <!-- Cara frontal -->
+    <div class="absolute inset-0 bg-[#f0dec3] rounded-2xl p-6 backface-hidden flex flex-col justify-center items-center text-center shadow-xl">
+      <h2 class="text-2xl font-bold text-stone-700 mb-2">Semana {{ r.semana }}</h2>
+    </div>
+
+    <!-- Cara trasera -->
+    <div class="absolute inset-0 bg-[#f0dec3] rounded-2xl p-6 backface-hidden transform rotate-y-180 shadow-xl flex items-center justify-center text-stone-700 text-justify">
+      <p>{{ r.texto }}</p>
+    </div>
+
+  </div>
+</div>
+
+
+
+    <!-- <div class="bg-[#f0dec3]  shadow-xl rounded-2xl text-center p-6 transition hover:scale-[1.02] duration-300 font-sans">
+       <h2 class="text-2xl font-bold text-stone-700 mb-2">Semana 1</h2>
         <p class="text-stone-700 drop-shadow-md text-justify">
           Durante esta primera semana, pude conocer el plan de estudios completo. Esto me permitió visualizar todo el camino que iba a recorrer y organizarme mental y académicamente. Comprendí la importancia de tener claridad en los objetivos desde el inicio y me comprometí a mantener constancia en el aprendizaje.
         </p>
-    </div>
-    <div class="bg-[#f0dec3]  shadow-xl rounded-2xl text-center p-6 transition hover:scale-[1.02] duration-300 font-sans">
+    </div> -->
+
+
+
+    <!-- <div class="bg-[#f0dec3]  shadow-xl rounded-2xl text-center p-6 transition hover:scale-[1.02] duration-300 font-sans">
         <h2 class="text-2xl font-bold text-stone-700 mb-2">Semana 2</h2>
         <p class="text-stone-700 drop-shadow-md text-justify">
           Esta semana fue fundamental para entender cómo funciona el desarrollo web de forma integral. Aprendí a distinguir entre el frontend, que se encarga de la interfaz visual, y el backend, que gestiona la lógica y los datos. Esta distinción me ayudó a tener una visión completa y a decidir en qué quiero enfocarme más adelante.
@@ -95,9 +122,16 @@
     </div>
 
     <div class="bg-[#f0dec3]  shadow-xl rounded-2xl text-center p-6 transition hover:scale-[1.02] duration-300 font-sans">
+        <h2 class="text-2xl font-bold text-stone-700 mb-2">Semana 15</h2>
+        <p class="text-stone-700 drop-shadow-md text-justify">
+         La incorporación de sistemas inteligentes en diversas áreas representa un avance significativo en la forma en que interactuamos con la tecnología. A través de su capacidad para aprender, adaptarse y tomar decisiones, estos sistemas permiten automatizar procesos complejos, optimizar recursos y mejorar la toma de decisiones basada en datos.
+        </p>
+    </div>
+
+    <div class="bg-[#f0dec3]  shadow-xl rounded-2xl text-center p-6 transition hover:scale-[1.02] duration-300 font-sans">
         <h2 class="text-2xl font-bold text-stone-700 mb-2">Reflexión Final</h2>
         <p class="text-stone-700 drop-shadow-md text-justify">
           Estas semanas han sido un proceso de crecimiento tanto técnico como personal. No solo aprendí sobre desarrollo web, sino que también desarrollé habilidades como la disciplina, la lógica y la perseverancia. Me siento motivado a seguir avanzando, profundizar en React y JavaScript, y comenzar a crear mis propios proyectos para fortalecer mi portafolio.
         </p>
-    </div>
+    </div> -->
 </main>

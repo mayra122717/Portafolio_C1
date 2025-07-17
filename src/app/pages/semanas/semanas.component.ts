@@ -107,6 +107,13 @@ export class SemanasComponent {
       ruta: '/semanas/14'
       
     },
+        {
+      titulo: 'Semana 15',
+      descripcion: 'Sistemas Inteligentes',
+      imagen: 'https://miro.medium.com/v2/resize:fit:828/format:webp/1*XzIRJGujfqAiOV2EIQgR_Q.png',
+      ruta: '/semanas/15'
+      
+    },
   ];
   columns = [
   {
